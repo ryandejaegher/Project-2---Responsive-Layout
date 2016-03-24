@@ -307,7 +307,7 @@ a {
 		width: 100%;
 		margin: 0px auto;
 	}
-
+}
 
 @media (min-width: 1024px) {
 
@@ -331,7 +331,6 @@ a {
 	}
 
 	.main-header {
-		text-align: none;
 		margin: 0 auto;
 	}
 
