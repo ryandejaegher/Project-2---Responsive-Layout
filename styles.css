@@ -216,9 +216,11 @@ a {
 		font-weight: 600
 	}
 
-	.not-visible a {
+	.not-visible a { /*Hides links in footer for mobile view*/
   		display: none;
 	}
+
+
 
 	.clearfix::after {
 		content: " ";
@@ -240,11 +242,59 @@ a {
 
 	/*Centers main navigation*/
 
+	.not-visible a {
+  		display: inline-block;
+  		padding: 0;
+  		padding-left: 25px;
+	}
+
+	.back-top a {
+		display: none;
+	}
+
+	.description p {
+		float: left;
+	}
+
+	.profile p {
+		text-align: left;
+	}
+
+	.profile-image {
+		float: right;
+		max-width: 40%;
+		padding-left: 1em;
+	}
+
+	.profile {
+		width: 100%;
+		margin: 0px auto;
+	}
+
+	.col {
+		float: left;
+	}
+
+	.first,
+	.second,
+	.third
+	{
+		width: 50%
+	}
 
 
 
 @media (min-width: 1024px) {
 
+	.col {
+		float: left;
+	}
+
+	.first,
+	.second,
+	.third {
+		width: 33%
+	}
 	
 
 /* ---- Float clearfix ---- */
