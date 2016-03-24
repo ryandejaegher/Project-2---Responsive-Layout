@@ -190,7 +190,8 @@ a {
 		border-top: 2px solid #e6e6e6;
 		max-width: 90%;
 		margin: 0 auto;
-		padding-top: 25px;
+		padding-top: 30px;
+		padding-bottom: 0;
 	}
 
 	.main-footer h3, ul {
@@ -215,8 +216,8 @@ a {
 		font-weight: 600
 	}
 
-	.not-visible {
-  		visibility: hidden;
+	.not-visible a {
+  		display: none;
 	}
 
 	.clearfix::after {
@@ -228,7 +229,17 @@ a {
 
 @media (min-width: 768px) {
 
-	
+	.main-nav li {
+		background-color: #fafafa;
+		display: inline-block;
+	}	
+
+	.main-header {
+		text-align: center;
+	}
+
+	/*Centers main navigation*/
+
 
 
 
